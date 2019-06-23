@@ -1,0 +1,25 @@
+[debug] [2019-06-23T14:35:25.740Z] ----------------------------------------------------------------------
+[debug] [2019-06-23T14:35:25.743Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAIBABA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve -p 8081
+[debug] [2019-06-23T14:35:25.744Z] CLI Version:   7.0.1
+[debug] [2019-06-23T14:35:25.744Z] Platform:      win32
+[debug] [2019-06-23T14:35:25.744Z] Node Version:  v10.13.0
+[debug] [2019-06-23T14:35:25.747Z] Time:          Sun Jun 23 2019 20:05:25 GMT+0530 (India Standard Time)
+[debug] [2019-06-23T14:35:25.747Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-23T14:35:25.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-23T14:35:25.761Z] > authorizing via signed-in user
+[debug] [2019-06-23T14:35:25.761Z] [iam] checking project test-b5efa for permissions ["firebase.projects.get"]
+[debug] [2019-06-23T14:35:25.764Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/test-b5efa:testIamPermissions  
+
+[debug] [2019-06-23T14:35:27.786Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-23T14:35:27.789Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-b5efa  
+ 
+[debug] [2019-06-23T14:35:29.626Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\quickstart-js\messaging'...
+[info] 
+[debug] [2019-06-23T14:35:29.633Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/746683729893/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-23T14:35:30.590Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:8081
